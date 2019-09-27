@@ -5,7 +5,7 @@ fields:
 - type: text
   name: title
   label: title
-- name: author
+- name: insurance
   type: select
   default: ''
   config:
@@ -16,8 +16,8 @@ fields:
       section: authors-list
       file: src/assets/content/data/authors.json
       path: authors
-  label: Author
-  description: Choose author, to add a new author go to the Authors List file
+  label: Insurance
+  description: Choose insurance plan
 - type: datetime
   name: date
   label: date

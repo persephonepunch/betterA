@@ -14,6 +14,11 @@ sections:
   templates:
   - blog-post
 - type: document
+  path: src/assets/content/data/insurance.json
+  label: Insurance List
+  match: "**/*"
+  read_only: false
+- type: document
   path: src/assets/content/data/authors.json
   label: Authors List
 - type: document

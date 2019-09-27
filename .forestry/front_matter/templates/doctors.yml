@@ -1,0 +1,7 @@
+---
+label: Doctors
+hide_body: true
+fields:
+- type: list
+  name: authors
+  label: authors

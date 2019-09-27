@@ -2,6 +2,12 @@
 label: Insurance
 hide_body: true
 fields:
-- type: list
-  name: authors
-  label: authors
+- name: insurance_list
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Insurance List
+  description: Choose and Insurance Provider
+  hidden: false

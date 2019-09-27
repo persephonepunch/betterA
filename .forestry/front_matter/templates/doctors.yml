@@ -5,3 +5,12 @@ fields:
 - type: list
   name: authors
   label: authors
+- name: insurance
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: insurance
+  description: Choose and Insurance Provider
+  hidden: false

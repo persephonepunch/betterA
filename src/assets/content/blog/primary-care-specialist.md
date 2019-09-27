@@ -1,6 +1,6 @@
 ---
 title: PRIMARY CARE/SPECIALIST
-author: Allen Ginsberg
+author: Dr. Smith
 date: 
 hero_image: ''
 

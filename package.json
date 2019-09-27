@@ -1,10 +1,10 @@
 {
-  "name": "brevifolia-gridsome-forestry",
+  "name": "better-things",
   "private": true,
-  "description": "A simple starter blog to get up and developing quickly with Forestry & Gridsome",
+  "description": "GraphQL/Vue based workflow",
   "license": "MIT",
   "version": "0.1.0",
-  "author": "kendall strautman",
+  "author": "yoonsun lee",
   "scripts": {
     "build": "gridsome build",
     "dev": "gridsome develop",
@@ -24,6 +24,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/forestryio/brevifolia-gridsome-forestry"
+    "url": "https://github.com/persephonepunch/betterA"
   }
 }

@@ -24,6 +24,20 @@ fields:
 - type: file
   name: hero_image
   label: hero_image
+- name: specialization
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: authors-list
+      file: src/assets/content/data/authors.json
+      path: authors
+  label: Specialization
+  description: Medical Specializations
+  hidden: false
 pages:
 - src/assets/content/blog/primary-care-specialist.md
 - src/assets/content/blog/sunflower-sutra.md
